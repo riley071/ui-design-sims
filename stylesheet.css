@@ -1,0 +1,222 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./bg-tiles.jpg');
+    background-size: cover;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HEADER SECTIONS */
+
+header section {
+    display: flex;
+    background-color: rgba(160, 160, 160, 0.451);
+    border-radius: 6px;
+    color: rgb(74, 74, 74);
+    font-weight: bolder;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+header section img {
+    height: 35px;
+    width: 35px;
+    background-color: gray !important;
+}
+
+header section label {
+    background-color: white;
+    color: gray;
+    font-size: 18px;
+    padding: 2px;
+    margin: 5px;
+    width: 300px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+header section nav {
+    background-color: rgba(160, 160, 160, 0.451);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6vh;
+    right: 0;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+header section nav .top{
+    display: flex;
+    flex-direction: row;
+}
+header section nav .top .left{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+header section nav .top .right{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+header section nav .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+header section img{
+    padding: 3px;;
+}
+
+
+
+
+
+
+
+
+main {
+    min-height: 34vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* MAIN ASIDE */
+
+main section aside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+main section aside.left {
+    width: 30%;
+}
+
+
+main section aside.right {
+    width: 70%;
+}
+
+
+/* FEATURES ASIDE RIGHT FEATURES*/
+
+main section.features aside.right {
+    justify-content: center;
+    width: 73%; 
+
+}
+
+main section.features aside.right button {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.264);
+    border: none;
+    border-radius: 6px;
+    height: 5vh;
+    color: white;
+    font-weight: bolder;
+}
+
+main section.features aside.left {
+    width: 20%;
+}
+
+main section.features aside.left {
+    background-color: rgba(255, 255, 255, 0.264);
+    border-radius: 1rem;
+}
+
+main section.features aside.left input {
+    width: 85%;
+    border-radius: 2rem;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    padding: 8px;
+}
+
+main section.features aside.left button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/* ASIDE CONTENT ITEMS RIGHT */
+main section.content aside.right {
+    overflow-y: scroll;
+}
+
+main section.content aside.right .item {
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: .5rem;
+    height: 80px;
+    width: 80px;
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+
+/* ASIDE CONTENT RIGHT SIDE */
+main section.content {
+    height: 30vh;
+}
+
+main section.content aside.left {
+   
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+main section.content aside.left .image-area{
+    background-image: url('./sims.png');
+    background-size: cover;
+    width: 90%;
+}
+main section.content aside.left .menu{
+    background-color:rgba(255, 255, 255, 0.173);
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+main section.content aside.left .menu img{
+    height: 30px;
+}
+
+main section.content aside.left nav {
+    position: absolute;
+    background-color: white;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main section.content aside.left img {
+    height: 50px;
+    padding: 4px;
+}
